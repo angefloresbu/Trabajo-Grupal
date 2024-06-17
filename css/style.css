@@ -1,36 +1,125 @@
 @import url('https://fonts.googleapis.com/css2?family=Notable&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+header{	
+	background-color: #2f4e3f;
+	padding: 10px 0px;
+	color: #eee;
+	border-bottom: 1px solid #eee;
+}
+
+footer{
+	background-color: #2f4e3f;
+	padding: 20px 0px;
+}
+
 body{
 	font-family: "Poppins", sans-serif;
 	color: #fbf9ef;
 	background-color: #172920;
 }
 
-header{	
-	background-color: #2f4e3f;
-	padding: 20px 0px;
-	border-bottom: 1px solid #eee;
-}
-
-h1{
+.title {
 	font-family: "Notable", sans-serif;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 24px;
+	font-size: 28px;
+}
+
+.subtitle {
+	font-style: italic;
+	text-align: center;
+}
+
+#hero .title {
+	padding-top: 400px;
+}
+
+#hero-historia .title{
+	padding-top:  200px;	
+	text-align: center;
+}
+
+#hero-nt .title {
+	padding-top: 450px;
+}
+
+#sobre {
+	padding-top: 5px;
+}
+
+#sobre .title {
+	padding-top: 100px;
+}
+
+#hero-contacto {
+	padding-bottom: 15px;
+}
+
+#hero-contacto .subtitle {
+	padding-top: 15px;
+}
+
+#info {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#info .title {
+	padding-top: 50px;
+}
+
+#hero-rse{
+	background-image: url("../img/rse-1.jpeg");
+	background-size: cover;
+	background-position: center;
+	padding: 10% 0;
+}
+
+#instrumentos {
+	padding-top: 20px;
+}
+
+#instrumentos .subtitle{
+	padding-top: 40px;
+}
+
+#heroo {
+	background-image: url("../img/pp-1.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 10% 0;
+}
+
+.list-inline-item{
+	font-size: 28px;
+}
+
+h1{
+  text-align: center;
+  font-size: 44px;
+  padding: 10px;
+}
+
+h1 .hero{
+	color: #FBF9EF;
 }
 
 h2{
 	font-family: "Notable", sans-serif;
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
 h3{
-	font-size: 16px;	
+	font-size: 20px;	
 }
 
 p{
-	font-size: 12px;	
+	font-size: 16px;	
+}
+
+.carousel-caption{
+	text-align: center;
 }
 
 .btn{
@@ -48,84 +137,62 @@ p{
   color: #FBF9EF;
 }
 
-.ajustarCompeto{
-    float: center;
-    padding: 20px 20px; 
-    bottom: 0;
-    background-color:#2F4E3F ;
-    color: #FBF9EF;
-    width: 100%;
-}
-
-.box {
-    margin: auto;
-    position: relative;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-	background-color: #2F4E3F;
+#eventos{
 	text-align: center;
+	padding-bottom: 30px;
 }
 
-.grupo-2{
+
+#media{
+	padding-top: 20px;
+	background-color: #fbf9ef; 
 	text-align: center;
-	color:  #476951;
+	color: #172920 !important; 
+}
+	
+.twitter-tweet{
+	padding-left: 190px;
 }
 
-.carousel-caption{
-	text-align: center;
+.instagram-media{
+	padding-left: 300px
 }
 
-#service {
-	background-image: url("../img/serviciosimg.avif");
-	padding: 10% 0;
+#servicios{
+	background-image:url("../img/servicios 1 img.jpeg");
 	background-size: cover;
 	background-position: center;
-	
+	padding: 10% 0;
 }
 
-h1{
-  text-align: center;
-  font-size: 40px;
-  color: #FBF9EF;
-  padding: 10px;
+#servicios-slides{
+	padding: 15px 0;
 }
 
-.button {  
-
-  border: none;
-  color: #476951;
-  padding: 10px 20px;
-  text-align: center;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 2px;
-  border-radius: 5px;
-	padding: 0px 10px;
-	justify-content: center;
+#servicios-slides h3{
+	text-align: center;
+	font-size: 20px;
 }
 
-
-.service {
-  background-color: #2f4e3f;
-  padding: 20px 10px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	margin: 4px 2px;
-	margin-left: 2px;
-	
-}
-	.service h3 {
-  margin-top: 0;
-text-align: center;
+#aboutus{
+	padding: 10% 0;
+	background-image: url("../img/banner servicios.jpg");
+	background-size: cover;
+	background-position: center;
 }
 
-.col-lg{
-	text-align: center
+#misionvision h2{
+	text-align: left;
 }
 
+#misionvision {
+	padding: 25px 0;
+}
 
+#valores {
+	padding-bottom: 25px;
+}
 
-footer{
-	background-color: #2f4e3f;
-	padding: 20px 0px;
+#valores .subtitle{
+	padding-top: 40px;
 }

@@ -4,10 +4,9 @@ a{
 }
 .navbar-light {
 	background-color:transparent!important;
-	font-size:13px;
-	text-transform: uppercase;
+	font-size:14px;
+	text-transform: capitalize;
 	letter-spacing: 1px;
-	
 }
 .navbar-light .navbar-nav .nav-link{
 	color:rgba(255,255,255,0.70);	
@@ -86,8 +85,8 @@ a{
 
 
 .navbar-toggler i{
-	color: #00d9d9;
-	font-size: 20px;
+	color: #FFFFFF;
+	font-size: 26px;
 }
 
 
@@ -105,14 +104,14 @@ a{
 
 /*Altura definida para el Carousel manteniendo el aspecto de la imagen*/
 .carousel .carousel-item {
-  	height: 500px;
+  	height: 700px;
 }
 .carousel-item img {
     position: absolute;
     object-fit:cover;
     top: 0;
     left: 0;
-    min-height: 500px;
+    min-height: 700px;
 }
 
 
